@@ -5,7 +5,7 @@
 //   } else if (typeof(input) === "number"){
 //     return input * 3;
 //   } else {
-//     return myArg;
+//     return input;
 //   }
 // };
 
@@ -33,7 +33,7 @@ let anonFunction = arr.map(function(input){
   } else if (typeof(input) === "number"){
     return input * 3;
   } else {
-    return myArg;
+    return input;
   }
 });
 
